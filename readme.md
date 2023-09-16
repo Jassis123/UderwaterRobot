@@ -22,35 +22,18 @@
 
 ## 水下机器人展示
 
-<<<<<<< HEAD
-![](photos\Robot.png)
-=======
-=======
-
-# 
-
-![](.\photos\System.png)
-
-> > > > > > > 8506cf91e1569727cba94cc1b12be969ae98269d
-
-![](.\photos\Robot.png)
->>>>>>> 06e57d7ac8460943ec1256430f243288e53c5526
+![](Robot.png)
 
 ## 封装测试流程
 
-![Test flow.png](.\photos\Test%20flow.png)
+![Test flow.png](Test%20flow.png)
 
 ## 系统软件框架设计
 
 - NVIDIA系列板卡作为机载电脑，处理复杂的任务，如图像识别，运动规划等。
-
-<<<<<<< HEAD
-- STM32作为底层控制器，搭载ucosiii，方便应用开发，提高多任务的实时性。![](photos\System.png)
-=======
 - STM32作为底层控制器，搭载ucosiii，方便应用开发，提高多任务的实时性。
 
-![](.\photos\System.png)
->>>>>>> 06e57d7ac8460943ec1256430f243288e53c5526
+![](System.png)
 
 ## 应用开发
 
@@ -70,18 +53,18 @@
 
 - 机械臂遥操作控制
 
-![Interaction Interface.png](.\photos\Interaction%20Interface.gif)
+![Interaction Interface.png](Interaction%20Interface.gif)
 
 ### 基于yolov4-tiny模型训练的海产品识别
 
-![](photos\Yolo.png)
-![](photos\grasp.gif)
+![](Yolo.png)
+![](grasp.gif)
 
-![视觉避障反馈.png](.\photos\视觉避障反馈.png)
+![视觉避障反馈.png](视觉避障反馈.png)
 
 ### 基于ROS机械臂遥操作
 
-## ![](.\photos\Arm.gif)
+## ![](Arm.gif)
 
 ## 实战
 
@@ -89,4 +72,4 @@
 
 在2022参与全国水下机器人大赛并获奖。
 
-![](.\photos\Lake%20test.jpg)
+![](Lake%20test.jpg)
