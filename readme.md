@@ -1,12 +1,20 @@
-<<<<<<< HEAD
-
 # Underwater Robot Design
 
 **项目描述：** 该项目针对水下机器人的应用进行软硬件的设计与开发。
 
 主要包括：硬件框架、软件框架和应用开发。 
 
-个人完全负责该型机器人软件框架的设计与开发，同时负责问题排查定位与调试。
+个人工作：个人完全负责该型机器人软件框架的设计与开发，同时负责问题排查定位与调试。
+
+- 控制算法：编写双闭环PID控制算法；在NVIDIA上部署深度强化学习DDPG算法（Pytorch框架）。
+
+- RTOS 开发：在 STM32F103 应用 UCOSIII，提高了多任务实时性，解决中断丢失等问题。
+
+- 数据交互：上位机通信框架采用类 C/S 模型设计，以实现多端交互。具体建立了基于 TCP/IP 远程通信；IPC 进程间通信；另外，封装串口和摄像头设备接口，以共享资源。
+
+- 图像处理/识别：OpenCV 图像去噪，部署 Yolov4-tiny 模型训练与检测，Fps 达 20+，反馈控制。
+
+- 人机交互：采用 PyQT5 界面+Socket+多线程等技术编写上位机软件，实现算法参数调试、传感器数据显示和视频图像回传，同时编写游戏手柄遥操作机器人程序。
 
 以下仅作展示，**本项目暂时不开源。**
 
@@ -14,15 +22,7 @@
 
 ## 水下机器人展示
 
-=======
-
-# 
-
-![](System.png)
-
-> > > > > > > 8506cf91e1569727cba94cc1b12be969ae98269d
-
-![](Robot.png)
+![](photos\Robot.png)
 
 ## 封装测试流程
 
@@ -32,9 +32,7 @@
 
 - NVIDIA系列板卡作为机载电脑，处理复杂的任务，如图像识别，运动规划等。
 
-- STM32作为底层控制器，搭载ucosiii，方便应用开发，提高多任务的实时性。
-
-![](System.png)
+- STM32作为底层控制器，搭载ucosiii，方便应用开发，提高多任务的实时性。![](photos\System.png)
 
 ## 应用开发
 
@@ -58,7 +56,8 @@
 
 ### 基于yolov4-tiny模型训练的海产品识别
 
-<img title="" src="file:///F:/MiniDesktop/Myproject/UnderwaterRobot/Yolo.png" alt="Yolo.png" width="249"><img title="" src="file:///F:/MiniDesktop/Myproject/UnderwaterRobot/grasp.gif" alt="" width="344">
+![](photos\Yolo.png)
+![](photos\grasp.gif)
 
 ![视觉避障反馈.png](photos\视觉避障反馈.png)
 
