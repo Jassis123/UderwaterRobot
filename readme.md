@@ -18,15 +18,15 @@
 
 # 
 
-![](System.png)
+![](.\photos\System.png)
 
 > > > > > > > 8506cf91e1569727cba94cc1b12be969ae98269d
 
-![](Robot.png)
+![](.\photos\Robot.png)
 
 ## 封装测试流程
 
-![Test flow.png](photos\Test%20flow.png)
+![Test flow.png](.\photos\Test%20flow.png)
 
 ## 系统软件框架设计
 
@@ -34,7 +34,7 @@
 
 - STM32作为底层控制器，搭载ucosiii，方便应用开发，提高多任务的实时性。
 
-![](System.png)
+![](.\photos\System.png)
 
 ## 应用开发
 
@@ -54,17 +54,17 @@
 
 - 机械臂遥操作控制
 
-![Interaction Interface.png](photos\Interaction%20Interface.gif)
+![Interaction Interface.png](.\photos\Interaction%20Interface.gif)
 
 ### 基于yolov4-tiny模型训练的海产品识别
 
 <img title="" src="file:///F:/MiniDesktop/Myproject/UnderwaterRobot/Yolo.png" alt="Yolo.png" width="249"><img title="" src="file:///F:/MiniDesktop/Myproject/UnderwaterRobot/grasp.gif" alt="" width="344">
 
-![视觉避障反馈.png](photos\视觉避障反馈.png)
+![视觉避障反馈.png](.\photos\视觉避障反馈.png)
 
 ### 基于ROS机械臂遥操作
 
-## ![](photos\Arm.gif)
+## ![](.\photos\Arm.gif)
 
 ## 实战
 
@@ -72,4 +72,4 @@
 
 在2022参与全国水下机器人大赛并获奖。
 
-![](photos\Lake%20test.jpg)
+![](.\photos\Lake%20test.jpg)
