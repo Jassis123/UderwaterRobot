@@ -1,5 +1,7 @@
 # Underwater Robot Design
 
+**参考视频链接：** https://www.bilibili.com/video/BV1mj41147Ke/?spm_id_from=333.999.0.0&vd_source=4be7561bc287d34ebce9f64909e36931
+
 **项目描述：** 该项目针对水下机器人的应用进行软硬件的设计与开发。
 
 主要包括：硬件框架、软件框架和应用开发。 
